@@ -153,3 +153,45 @@ section .herosec .left .down {
     align-items: center;
     gap: 0.5rem;
 }
+section .herosec .left .down img {
+    height: 33px;
+    display: flex;
+    align-items: center;
+}
+section .herosec .left .down .words {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+section .herosec .left .down .words p.ead {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: grey;
+}
+section .herosec .left .down .words p.s-ead {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.mainsec .herosec .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainsec .herosec .right-img {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/Header\ Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
