@@ -422,3 +422,29 @@ section#clear {
 .clear-process .zero .img2 {
     padding-bottom: 50px;
 }
+
+/* Offers */
+section.offsec {
+    height: 180vh;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    padding-top: 10px;
+    gap: 2.7rem;
+}
+.offers p.lt {
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+}
