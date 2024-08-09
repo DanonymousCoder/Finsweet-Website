@@ -534,3 +534,53 @@ section.offsec {
     letter-spacing: 0em;
     text-align: left;
 }
+
+
+/* get in */
+section#get-in {
+    min-height: 55vh;
+    width: 100%;
+}
+.containert {
+    display: flex;
+    height: 55vh;
+    width: 100%;
+}
+.left-imag {
+    background-image: url("../img/car-cta.png");
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cta {
+    background-color: #FF6433;
+    width: 70%;
+    padding-left: 50px;
+    padding-right: 20px;
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+}
+.cta h3 {
+    font-size: 30px;
+    color: white;
+}
+.cta-btn .btn {
+    background-color: #1E1B1B;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.right-imag {
+    background-image: url("../img/ovGrEUgrkyE.png");
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
