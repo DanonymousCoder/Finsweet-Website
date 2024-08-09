@@ -353,3 +353,72 @@ section#clear {
     color: #1E1B1B;
     margin-bottom: 10px;
 }
+.clear-process .left p.sb {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 437px;
+    height: 56px;
+    opacity: 60%;
+}
+.clear-process .left .learn {
+    margin-top: 50px;
+}
+.clear-process .left .learn a.more-learn {
+    padding: 16px 40px;
+    background-color: #FF6433;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31.5px;
+    word-spacing: 0.1rem;
+}
+.clear-process .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.clear-process .zero {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.clear-process .right .zero .txt p.hx {
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    height: 48px;
+    width: 325px;
+    padding-top: 10px;
+}
+.clear-process .right .zero .txt p.bx {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 336px;
+    height: 96px;
+    opacity: 60%;
+    padding-top: 25px;
+
+}
+.clear-process .zero .img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clear-process .zero .img2 {
+    padding-bottom: 50px;
+}
