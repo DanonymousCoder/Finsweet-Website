@@ -1027,4 +1027,79 @@ section#get-in {
         text-align: left;
         margin-bottom: 40px;
     }
+    .hd {
+        gap: 1.5rem;
+    }
+    .hd img {
+        height: 70px;
+    }
+    .serious .left .hd p {
+        font-size: 38px;
+    }
+    .serious .left .feature {
+        margin-bottom: 60px;
+    }
+    .serious .left .feature p.sub {
+        font-size: 23px;
+        width: 500px;
+        padding-left: 94px;
+    }    
+    .serious .right {
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+    }
+    .serious .right h3 {
+        font-size: 58px;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .serious .right .get-quote form a.quote {
+        padding: 30px 60px 30px 60px;
+        font-size: 25px;
+    }
+    .serious .know-arrow p.know {
+        font-size: 35px;
+    }
+    .serious .know-arrow img {
+        height:25px;
+    }
+    #clear {
+        min-height: 110vh;
+        width: 100%;
+    }
+    .clear-process {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+    }
+    .clear-process .left {
+        width: 100%;
+        height: 50%;
+    }
+    .clear-process .right {
+        width: 100%;
+        height: 50%;
+    }
+    #clear {
+        min-height: 100vh;
+        width: 100%;
+    }
+    .clear-process {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+        gap: 10px;
+    }
+    .clear-process .left {
+        width: 100%;
+        height: 50%;
+    }
+    .clear-process .right {
+        width: 100%;
+        height: 50%;
+        gap: 0.5rem;
+    }
 }
