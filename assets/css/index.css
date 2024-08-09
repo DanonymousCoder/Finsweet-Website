@@ -1102,4 +1102,119 @@ section#get-in {
         height: 50%;
         gap: 0.5rem;
     }
+    .clear-process .left h2 {
+        font-size: 54px;
+    }
+    .clear-process .left p.sb {
+        font-size: 38px;
+        width: 100%;
+        line-height: 50px;
+    }
+    .clear-process .left .learn {
+        margin-top: 190px;
+    }
+    .clear-process .zero {
+        gap: 2rem;
+    }
+    .clear-process .zero img {
+        height: 80px;
+    }
+    .clear-process .right .zero .txt p.hx {
+        font-size: 48px;
+        width: 100%;
+    }
+    .clear-process .right .zero .txt p.bx {
+        font-size: 30px;
+        padding-top: 30px;
+        width: 500px;
+    }
+    .clear-process .zero .img {
+        padding-top: 20px;
+        gap: 1.5rem;
+    }
+    .clear-process .zero .img2 {
+        padding-bottom: 90px;
+    }
+    .clear-process .left .learn a.more-learn {
+        padding: 30px 60px 30px 60px;
+        font-size: 25px;
+    }
+    section.offsec {
+        max-height: 150vh;
+    }
+    .offers {
+        width: 100%;
+    }
+    .offers .lt {
+        font-size: 20px;
+    }
+    .offers h2 {
+        font-size: 38px; 
+        line-height: 40px;
+        width: 100%;
+        padding: 0 10px;
+    }
+    .offers .offs .off-box  {
+        width: 220px;
+        height: 286px;
+    }
+    .offers .offs .off-box2 p.sbx {
+        font-size: 18px;
+    }
+    .offers .offs .off-box p.sbx {
+        font-size: 18px;
+    }
+    .serve-arr {
+        margin-top: 26.5rem;
+        padding-right: 20px;
+    }
+    .learn-at-serve {
+        font-size: 20px;
+    }
+    .containert {
+        flex-direction: column;
+    }
+    .left-imag {
+        width: 100%;
+        height: 50vh;
+    }
+    .right-imag {
+        width: 100%;
+        height: 50vh;
+    }
+    .cta {
+        padding: 0 25px;
+    }
+    .cta h3 {
+        font-size: 28px;
+    }
+    .cta .cta-btn {
+        padding: 25px 50px 25px 50px;
+        font-size: 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-self: flex-start;
+        padding-left: 5px;
+    }
+    .stats {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 25px;
+        padding: 0 20px;
+        flex-direction: column;
+        text-align: left;
+    }
+    .stats .prof1 {
+        gap: 13rem;
+    }
+    .stats .prof2 {
+        gap: 13rem;
+    }
+    .stats .prof .hd {
+        font-size: 56px;
+    }
+    .stats .prof .sb {
+        font-size: 28px;
+        width: 100%;
+    }
 }
