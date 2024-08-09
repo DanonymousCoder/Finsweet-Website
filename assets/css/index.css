@@ -870,4 +870,94 @@ section#get-in {
     .cta h3 {
         font-size: 15px;
     }
+    .cta .cta-btn {
+        padding: 15px 40px 15px 40px;
+        font-size: 15px;
+        display: flex;
+        justify-content: flex-start;
+        align-self: flex-start;
+        padding-left: 5px;
+    }
+    .stats {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 0 20px;
+        flex-direction: column;
+    }
+    .stats .prof1,
+    .prof2 {
+        gap: 35px;
+    }
+    .stats .prof .hd {
+        font-size: 38px;
+    }
+    .stats .prof .sb {
+        font-size: 15px;
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 425px) and (max-width: 840px) {
+    .container {
+        width: 100vw;
+    }
+    .header {
+        position: fixed;
+        z-index: 10000;
+    }
+    .header nav {
+    width: 100%;
+    flex-direction: column;
+   }
+    .logo a.log {
+    font-size: 35px;
+   }
+   .header nav .links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+   }
+   .header nav .links ul {
+    column-gap: 18px;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+   }
+   .header nav .links ul li a {
+    font-size: 28px;
+   }
+   .header nav .links .help {
+    gap: 0.5rem;
+    margin-top: 10px;
+   }
+   .help img {
+    width: 38px;
+    height: 38px;
+   }
+   .header nav .links .help .txt {
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+   }
+   .header nav .links .help .txt .head {
+    font-size: 27px;
+    font-weight: 150;
+   }
+   .header nav .links .help .txt .sub {
+    font-size: 27px;
+    font-weight: bolder;
+   }
+   .mainsec {
+    padding: 0px 20px;
+    width: 100vw;
+    margin-top: 7vh;
+    height: 120vh;
+   }
 }
