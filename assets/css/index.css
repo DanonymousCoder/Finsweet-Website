@@ -960,4 +960,71 @@ section#get-in {
     margin-top: 7vh;
     height: 120vh;
    }
+   .mainsec .herosec {
+    flex-direction: column-reverse;
+   }
+   .mainsec .herosec .left {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    z-index: 500;
+   }
+   section .herosec .left p.head {
+    font-size: 55px;
+    text-align: center;
+    line-height: 75px;
+    margin-bottom: 15px;
+    color: white;
+   }
+   section .herosec .left button {
+    align-self: center;
+    font-size: 28px;
+    padding: 25px 40px 25px 40px;
+    margin-bottom: 30px;
+   }
+   section .herosec .left .down {
+    align-items: center;
+   }
+   section .herosec .left .down .words p.ead {
+    font-size: 28px;
+    font-weight: bolder;
+    color: wheat;
+    padding-top: 0px;
+    color: rgb(255, 240, 255)d6;
+   }
+   section .herosec .left .down .words p.s-ead {
+    color: white;
+    font-size: 30px;
+   }
+   .mainsec .herosec .right {
+    width: 100%;
+    height: 100%;
+    padding: 0px 30px;
+    position: absolute;
+   }
+   .mainsec .herosec .right .right-img {
+    background-image: url("../Image2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   .serious {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 0;
+    }
+    .serious .left {
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+    }
+    .serious .left h2 {
+        font-size: 58px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
 }
